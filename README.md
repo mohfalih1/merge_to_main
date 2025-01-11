@@ -17,23 +17,23 @@ Steps to Merge Git Branch into Master
 Before merging, ensure that your working directory is clean and your branch is up-to-date.
 
 Step 1. 
-<h2>
 Check Out the Master Branch
-</h2>
+
 Start by switching to the master branch.
-
+<h2>
 git checkout master
+</h2>
+ 
 Step 2. 
-<h2>
 Pull the Latest Changes
-</h2>
 Fetch and integrate the latest changes from the remote repository.
-
-git pull origin master
-Step 3.
 <h2>
+git pull origin master
+ </h2>
+Step 3.
+
  Check Out the Feature Branch
-</h2>
+
 Switch to the branch you want to merge into master.
 <h2>
 git checkout your-feature-branch
